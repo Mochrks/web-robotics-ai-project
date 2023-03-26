@@ -13,9 +13,6 @@ import b from "./b.svg";
 import s from "./s.svg";
 import d from "./d.svg";
 import contact from "./contact.svg";
-import send from "./send.svg";
-import star from "./star.svg";
-import shield from "./shield.svg";
 import robot from "./robot.svg";
 import robot2 from "./robot2.svg";
 import robot3 from "./robot3.svg";
@@ -56,8 +53,5 @@ export {
   b,
   s,
   d,
-  send,
-  star,
-  shield,
   robot,
 };
