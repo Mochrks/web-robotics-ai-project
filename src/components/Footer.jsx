@@ -11,7 +11,7 @@ const Footer = () => (
         className="w-[60px] h-[72.14px]  object-contain"
       />
       <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white md:mr-[620px] mr-0 sm:py-0 py-5">
-        Copyright Ⓒ 2023 Mochrks. All Rights Reserved.
+        Copyright Ⓒ 2024 Mochrks. All Rights Reserved.
       </p>
 
       <div className="flex flex-row md:mt-0 mt-6 sm:mr-5 mr-0">

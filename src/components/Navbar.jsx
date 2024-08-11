@@ -30,7 +30,7 @@ const Navbar = () => {
         animate="show"
         className="font-poppins font-semibold ss:text-[21px] text-[22px] text-white ss:leading-[100.8px] leading-[35px] z-[999]"
       >
-        Gdvisuel
+        Mochrks
       </motion.p>
 
       {/* menu navbar */}
