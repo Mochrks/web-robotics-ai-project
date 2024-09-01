@@ -18,29 +18,8 @@
   scroll-behavior: smooth;
 }
 
-/* scrool */
-::-webkit-scrollbar{
-  width: 10px;
-  height: 10px;
-
-}
-
-::-webkit-scrollbar-thumb{
-  background: linear-gradient(
-    to bottom,
-    #B2EDC2,
-    #206584
-  );
-  border-radius: 50px;
-}
-::-webkit-scrollbar-track{
-  background: #474747;
-}
-
-/* akhir scroolbar */
-
 /* gradient */
-/* baru */
+/* new */
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
@@ -54,7 +33,6 @@
   );
   filter: blur(125px);
 }
-
 
 .gradient-01-1 {
   background-image: linear-gradient(
@@ -119,7 +97,7 @@
   transform: rotate(-53.13deg);
 }
 
-/* gradient untuk buttons */
+/* gradient for buttons */
 .gradient-05 {
   background: linear-gradient(
     180deg,
@@ -127,8 +105,6 @@
     rgba(255, 255, 255, 0) 100%
   );
 }
-
-
 
 .glassmorphism {
   background: rgba(255, 255, 255, 0.25);
@@ -138,7 +114,7 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-/* warna pink */
+/* pinks */
 .gradient-06 {
   position: absolute;
   width: 450px;
@@ -152,7 +128,7 @@
   transform: rotate(5deg);
 }
 
-/* linear warna */
+/* linear colors */
 .hero-gradient {
   background: linear-gradient(
     97.86deg,
@@ -162,7 +138,7 @@
   );
 }
 
-/* blue agak gelap */
+/* dark blue */
 .footer-gradient {
   position: absolute;
   width: 500px;
@@ -174,13 +150,6 @@
   filter: blur(150px);
 }
 
-
-
-
-
-/* ================================================== */
-
-/* lama */
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,

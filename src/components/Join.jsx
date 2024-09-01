@@ -45,7 +45,8 @@ const Join = () => (
         data anonymization techniques
       </motion.p>
 
-      <img
+      <motion.img
+        variants={fadeIn("left", "tween", 0.5, 2)}
         src={lets}
         alt="lets"
         className="py-10 sm:ml-[380px] ml-[70px] cursor-pointer"

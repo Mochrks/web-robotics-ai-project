@@ -23,7 +23,7 @@ const Navbar = () => {
       whileInView="show"
       className="w-full flex py-6 justify-end items-center navbar"
     >
-      {/* memakai text */}
+      {/* use text */}
       <motion.p
         variants={fadeIn("up", "tween", 0.5, 0.9)}
         initial="hidden"
@@ -33,7 +33,7 @@ const Navbar = () => {
         Mochrks
       </motion.p>
 
-      {/* menu navbar */}
+      {/* menu nav */}
       <ul className="list-none sm:flex  hidden justify-end items-center ml-20  flex-1 z-[999]">
         {navLinks.map((nav, index) => (
           <li
@@ -58,7 +58,7 @@ const Navbar = () => {
 
       {/* toogle menu bar */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
-        {/* gambar bar menu */}
+        {/* images bar menu */}
         <img
           src={toggle ? close : menu}
           alt="menu"
@@ -66,7 +66,7 @@ const Navbar = () => {
           onClick={() => setToggle(!toggle)}
         />
 
-        {/* menu toogle saat mobile or tablet */}
+        {/* toogle menu bar in mobile*/}
         <div
           className={`${
             !toggle ? "hidden" : "flex"

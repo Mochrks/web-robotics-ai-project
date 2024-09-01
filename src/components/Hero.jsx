@@ -14,7 +14,6 @@ import Watch from "./Watch";
 
 const Hero = () => {
   return (
-    // heroo awal
     <section id="home" className={`flex md:flex-row flex-col sm:py-1 py-10`}>
       <motion.div
         variants={staggerContainer}
@@ -39,10 +38,10 @@ const Hero = () => {
               <span className="text-gradient">Technology</span>{" "}
             </h1>
           </motion.div>
-          {/* deskripsi */}
+          {/* description */}
           <motion.p
             variants={textVariant(1.1)}
-            className={`${styles.paragraph} max-w-[770px] z-[999] text-start text-center sm:mx-1 mx-5  sm:py-16 py-1`}
+            className={`${styles.paragraph} max-w-[770px] z-[999] text-start sm:mx-1 mx-5 sm:py-16 py-1`}
           >
             Our team of experts is dedicated to creating innovative solutions
             that simplify complex processes, increase productivity, and enhance
@@ -64,8 +63,7 @@ const Hero = () => {
       <div
         className={`flex-1 ${styles.flexCenter} flex-col md:my-0 my-10 relative`}
       >
-        {/* gambar content */}
-
+        {/* images content */}
         <motion.img
           variants={fadeIn("left", "tween", 0.5, 2)}
           initial="hidden"
@@ -81,7 +79,7 @@ const Hero = () => {
         <div className="absolute z-[1] w-[50%] h-[50%] -left-[80%] top-[45%]  rounded-full  gradient-02-2 bottom-40" />
         <div className="absolute z-[0] w-[60%] h-[60%] -left-[104%] top-[45%]  rounded-full  gradient-02 bottom-40" />
 
-        {/* layer atas robot */}
+        {/* layer up robot */}
         <div className="absolute z-[5] w-[30%] h-[110%] right-[54%] top-[35%] rounded-[40px]  glass bottom-40" />
         <div className="absolute z-[5] w-[100%] h-[100%] md:right-[20%] right-[1%] top-[85%]  bottom-40">
           <motion.p
@@ -96,11 +94,11 @@ const Hero = () => {
         </div>
         {/* gradient end */}
 
-        {/* garis panjang 1 */}
+        {/* line 1 */}
         <div className=" absolute z-[0] border-l border-gray-300 h-[300%] -left-[20%] opacity-5" />
-        {/* garis panjang 2 */}
+        {/* line 2 */}
         <div className=" absolute z-[0] border-l border-gray-300 h-[300%] -right-[10%] opacity-5" />
-        {/* garis panjang 3 */}
+        {/* line 3 */}
         <div className=" absolute z-[0] border-l border-gray-300 h-[300%] right-[53%] opacity-5" />
       </div>
     </section>

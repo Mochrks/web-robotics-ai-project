@@ -12,7 +12,7 @@ import {
 
 const Services = () => (
   <motion.section
-    variants={staggerContainer}
+    variants={textVariant(1.1)}
     initial="hidden"
     whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
