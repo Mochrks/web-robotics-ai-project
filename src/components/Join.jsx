@@ -1,12 +1,6 @@
 import { lets, peace } from "../assets";
-import styles, { layout } from "../style";
-import {
-  textVariant,
-  slideIn,
-  fadeIn,
-  textVariant2,
-  staggerContainer,
-} from "../utils/motion.js";
+import styles, { layout } from "../styles/style";
+import { textVariant, fadeIn, staggerContainer } from "../utils/motion.js";
 import { motion } from "framer-motion";
 
 const Join = () => (

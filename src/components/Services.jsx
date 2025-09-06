@@ -1,14 +1,7 @@
-import styles from "../style";
-import { layout } from "../style";
+import { layout, styles } from "../styles/style";
 import { robot4, robot5, robot6 } from "../assets";
 import { motion } from "framer-motion";
-import {
-  textVariant,
-  slideIn,
-  fadeIn,
-  textVariant2,
-  staggerContainer,
-} from "../utils/motion.js";
+import { textVariant, fadeIn, staggerContainer } from "../utils/motion.js";
 
 const Services = () => (
   <motion.section

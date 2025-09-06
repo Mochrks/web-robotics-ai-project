@@ -1,14 +1,7 @@
 import { motion } from "framer-motion";
-import styles from "../style";
+import styles from "../styles/style";
 import { robot } from "../assets";
-import {
-  textVariant,
-  slideIn,
-  fadeIn,
-  textVariant2,
-  staggerContainer,
-} from "../utils/motion.js";
-
+import { textVariant, fadeIn, staggerContainer } from "../utils/motion.js";
 import ExploreNow from "./ExploreNow";
 import Watch from "./Watch";
 

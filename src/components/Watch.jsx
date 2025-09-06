@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { create } from "../assets";
 
 const Watch = ({ styles }) => (
@@ -7,5 +8,9 @@ const Watch = ({ styles }) => (
     className={`md:w-[200px] w-[120px] h-[180px] object-contain cursor-pointer ${styles}`}
   />
 );
+
+Watch.prototype = {
+  styles: PropTypes.string,
+};
 
 export default Watch;
