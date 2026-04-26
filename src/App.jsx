@@ -31,8 +31,11 @@ const App = () => (
         <DataAnalys />
         <OurProduct />
         <Join />
-        <Footer />
       </div>
+    </div>
+
+    <div className={`bg-primary w-full`}>
+      <Footer />
     </div>
   </div>
 );

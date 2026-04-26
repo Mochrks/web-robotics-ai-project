@@ -10,6 +10,7 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,vite,tailwind,framer" alt="Tech Stack Icons" />
 </p>
+
 ## Overview
 
 In this project, I build a website focused on **innovative**, **challenging**, and **advanced** technologies, specifically in the fields of **artificial intelligence** and **robotics**. The website features a user interface that is **responsive**, **interactive**, and **attractive**, ensuring that it meets the unique characteristics required for robotics-related content. Utilizing the latest technologies and design principles, the website aims to provide an engaging experience for users interested in AI and robotics.
